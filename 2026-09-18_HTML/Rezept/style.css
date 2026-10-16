@@ -5,15 +5,17 @@ body {
     background-color: aliceblue;
     color: #333;
 }
-#notes {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+h2 {
+    background-color: cadetblue;
 }
 .wichtig {
     font-weight: bold;
     color: rgb(153, 167, 224);
 }
 
-
+tr:nth-of-type(even) {
+    background-color: #d0d3ee;
+}
+tr:nth-of-type(odd) {
+    background-color: #7b91ea;
+}
